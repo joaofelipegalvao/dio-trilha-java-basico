@@ -1,4 +1,4 @@
-package nomeacao;
+package metodos.nomeacao;
 
 public class NomeacaoMetodos {
 
