@@ -41,8 +41,6 @@ usuário.
    ```
 5. Insira as informações solicitadas e veja a confirmação da conta criada! 🎉
 
----
-
 ## 📜 Licença
 
 Este projeto é de livre uso para fins educacionais. 📚✨
