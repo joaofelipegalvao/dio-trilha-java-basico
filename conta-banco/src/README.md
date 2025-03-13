@@ -3,8 +3,6 @@
 Este repositório contém a solução para o desafio do curso de Java da DIO, onde desenvolvemos um programa simples para
 simular a criação de uma conta bancária diretamente no terminal. 💻🏦
 
----
-
 ## 📜 Descrição
 
 O programa solicita ao usuário as seguintes informações:
@@ -39,9 +37,4 @@ usuário.
    ```sh
    java ContaTerminal
    ```
-5. Insira as informações solicitadas e veja a confirmação da conta criada! 🎉
-
-## 📜 Licença
-
-Este projeto é de livre uso para fins educacionais. 📚✨
-
+5. Insira as informações solicitadas e veja a confirmação da conta criada!
