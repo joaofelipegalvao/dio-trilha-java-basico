@@ -15,15 +15,11 @@ O programa solicita ao usuário as seguintes informações:
 Após a coleta dos dados, o programa exibe uma mensagem confirmando a criação da conta com os detalhes fornecidos pelo
 usuário.
 
----
-
 ## 🛠️ Tecnologias Utilizadas
 
 - ☕ Java
 - 📌 Classe `Scanner` para entrada de dados no terminal
 - 🌍 `Locale.US` para garantir compatibilidade na formatação numérica
-
----
 
 ## 📌 Como Executar
 
