@@ -48,5 +48,6 @@ A classe `Usuario` é utilizada para testar os métodos da `SmartTv`, realizando
 4. Verificar o estado inicial da TV (ligada/desligada).
 5. Ligar e desligar a TV e exibir o status atualizado.
 
----
+##
+
 Desenvolvido com Java ☕
