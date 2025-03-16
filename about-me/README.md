@@ -5,8 +5,6 @@ simples que interage com o usuário. O foco foi entender como declarar variávei
 entrada de dados e exibir informações na tela. Abaixo, compartilho o código utilizado como exemplo durante a aula,
 juntamente com algumas observações sobre o que aprendi.
 
----
-
 ### Código Exemplo - Classe `AboutMe`
 
 ```java
@@ -41,8 +39,6 @@ public class AboutMe {
    }
 }
 ```
-
----
 
 ### O que Aprendi:
 
@@ -90,15 +86,11 @@ public class AboutMe {
       }
       ```
 
----
-
 ### Como Funciona o Programa:
 
 1. O programa solicita ao usuário que insira seu nome, sobrenome, idade e altura.
 2. As entradas são armazenadas em variáveis (`nome`, `sobrenome`, `idade`, `altura`).
 3. Por fim, o programa exibe uma mensagem personalizada com as informações fornecidas pelo usuário.
-
----
 
 ### Exemplo de Execução:
 
