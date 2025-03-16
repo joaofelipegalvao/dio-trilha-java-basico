@@ -8,7 +8,6 @@ reutilizável.
 Abaixo, compartilho o código utilizado como exemplo durante a aula, juntamente com comentários e observações sobre cada
 parte:
 
----
 
 ### Código: Exemplo de Métodos em Java
 
@@ -54,8 +53,6 @@ public class ExemploMetodos {
 }
 ```
 
----
-
 ### O que aprendi:
 
 #### 1. **Métodos com Retorno**
@@ -86,8 +83,6 @@ public class ExemploMetodos {
 - Dividir o código em métodos torna o programa mais organizado, legível e reutilizável.
 - Métodos bem definidos facilitam a manutenção e o entendimento do código, especialmente em programas maiores.
 
----
-
 ### Exemplo de Saída do Código
 
 Ao executar o programa, a saída será:
@@ -102,8 +97,6 @@ O número é: 10
 ===== Exemplos de método sem retorno =====
 Número negativo. Encerrando método.
 ```
-
----
 
 ### Conclusão
 
