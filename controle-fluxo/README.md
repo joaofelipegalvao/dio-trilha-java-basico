@@ -7,8 +7,6 @@ fluxo de execução de um programa com base em condições específicas. Aprendi
 Abaixo, compartilho os códigos utilizados como exemplo durante a aula, juntamente com algumas observações sobre cada um
 deles:
 
----
-
 ### 1. **Exemplo de `if-else` - Classe `CaixaEletronico`**
 
 ```java
@@ -32,8 +30,6 @@ public class CaixaEletronico {
   verdadeira (`if`) e outro bloco se a condição for falsa (`else`).
 - Neste exemplo, o programa verifica se o valor solicitado é menor que o saldo disponível. Se for, ele atualiza o saldo;
   caso contrário, exibe uma mensagem de saldo insuficiente.
-
----
 
 ### 2. **Exemplo de `if-else` e Operador Ternário - Classe `ResultadoEscolar`**
 
@@ -65,8 +61,6 @@ public class ResultadoEscolar {
   determinar se ele está aprovado, em recuperação ou reprovado.
 - O **operador ternário** (`? :`) é uma forma compacta de escrever condições simples. Ele é útil para substituir
   `if-else` em situações onde a lógica é direta, como no método `CondicaoTernaria`.
-
----
 
 ### 3. **Exemplo de `if-else`, Operador Ternário e `switch case` - Classe `SistemaMedida`**
 
@@ -122,8 +116,6 @@ public class SistemaMedida {
 - O uso do `break` é importante para evitar o "fall-through", onde o código continua executando os casos subsequentes.
 - O operador ternário também pode ser usado para simplificar a lógica de decisão, como no método `CondicaoTernaria`.
 
----
-
 ### 4. **Exemplo de `if-else` e `switch case` - Classe `PlanoOperadora`**
 
 ```java
@@ -171,8 +163,6 @@ public class PlanoOperadora {
 - O "fall-through" pode ser útil quando queremos que um caso inclua os benefícios dos casos inferiores, como no exemplo
   dos planos de operadora.
 - O `default` é opcional e serve para lidar com valores inesperados.
-
----
 
 ### Conclusão
 
