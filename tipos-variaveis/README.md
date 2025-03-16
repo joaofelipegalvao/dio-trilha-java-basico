@@ -7,8 +7,6 @@ armazenar e manipular informações em um programa.
 Abaixo, compartilho o código utilizado como exemplo durante a aula, juntamente com comentários e observações sobre cada
 parte:
 
----
-
 ### Código da Aula: `TiposVariaveis.java`
 
 ```java
@@ -55,8 +53,6 @@ public class TiposVariaveis {
 }
 ```
 
----
-
 ### O que Aprendi:
 
 1. **Tipos de Dados Primitivos:**
@@ -84,8 +80,6 @@ public class TiposVariaveis {
       `meuNome` para armazenar meu nome completo.
     - Strings devem estar entre aspas duplas (`" "`).
 
----
-
 ### Boas Práticas Aprendidas:
 
 - **Nomes Significativos:** Use nomes descritivos para variáveis e constantes, como `numeroCurto` ou `VALOR_DE_PI`, para
@@ -95,8 +89,6 @@ public class TiposVariaveis {
     - Constantes: `CAIXA_ALTA` (ex: `VALOR_DE_PI`).
 - **Cuidado com Casting:** Ao converter tipos de dados, esteja ciente da possibilidade de perda de informação,
   especialmente ao converter de um tipo maior para um menor.
-
----
 
 ### Conclusão
 
