@@ -112,8 +112,6 @@ Tenho 25 anos
 Minha altura é 1.75 cm
 ```
 
----
-
 ### Conclusão
 
 Essa aula foi fundamental para entender a sintaxe básica do Java e como criar programas simples que interagem com o
