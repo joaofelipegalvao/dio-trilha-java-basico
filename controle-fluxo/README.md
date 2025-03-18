@@ -27,8 +27,6 @@ Este exemplo demonstra o uso básico de uma estrutura `if-else` para verificar s
 
 **Aprendizado:** Aqui, entendi como o `if-else` pode ser usado para tomar decisões simples com base em condições.
 
----
-
 ## 2. **ResultadoEscolar.java**
 
 Este exemplo mostra como usar `if-else` e operadores ternários para determinar o resultado de um aluno com base em sua
