@@ -1,177 +1,86 @@
-# Aula de Introdução e Estruturas Condicionais com Java - Curso DIO
+# Aula de Introdução e Estruturas Condicionais com Java - DIO
 
-Nesta aula, explorei os conceitos fundamentais das estruturas condicionais em Java, que são essenciais para controlar o
-fluxo de execução de um programa com base em condições específicas. Aprendi a utilizar estruturas como `if-else`,
-`switch case` e operadores ternários, que são ferramentas poderosas para tomar decisões em um programa.
+Nesta aula, tive a oportunidade de mergulhar nos conceitos básicos de estruturas condicionais em Java, uma das
+linguagens de programação mais utilizadas no mundo. Aprendi como utilizar estruturas como `if-else`, `switch case`,
+operadores ternários e loops (`for`, `while`, `do-while`) para controlar o fluxo de execução do código. Além disso,
+explorei exemplos práticos que ajudaram a consolidar o entendimento desses conceitos.
 
-Abaixo, compartilho os códigos utilizados como exemplo durante a aula, juntamente com algumas observações sobre cada um
-deles:
+A estrutura do repositório que utilizei para organizar os códigos da aula é a seguinte:
 
-### 1. **Exemplo de `if-else` - Classe `CaixaEletronico`**
-
-```java
-public class CaixaEletronico {
-   public static void main(String[] args) {
-      double saldo = 25.0;
-      double valorSolicitado = 17.0;
-      if (valorSolicitado < saldo) {
-         saldo = saldo - valorSolicitado;
-         System.out.println("Novo saldo: " + saldo);
-      } else {
-         System.out.println("Saldo insuficiente");
-      }
-   }
-}
+```
+└── src
+    ├── CaixaEletronico.java
+    ├── ExemploBreak.java
+    ├── ExemploForArray.java
+    ├── ExemploFor.java
+    ├── ExemploWhile.java
+    ├── PlanoOperadora.java
+    ├── ResultadoEscolar.java
+    └── SistemaMedida.java
 ```
 
-**O que aprendi:**
+Abaixo, descrevo brevemente cada um dos arquivos e o que aprendi com eles:
 
-- O `if-else` é uma estrutura condicional simples que permite executar um bloco de código se uma condição for
-  verdadeira (`if`) e outro bloco se a condição for falsa (`else`).
-- Neste exemplo, o programa verifica se o valor solicitado é menor que o saldo disponível. Se for, ele atualiza o saldo;
-  caso contrário, exibe uma mensagem de saldo insuficiente.
+## 1. **CaixaEletronico.java**
 
-### 2. **Exemplo de `if-else` e Operador Ternário - Classe `ResultadoEscolar`**
+Este exemplo demonstra o uso básico de uma estrutura `if-else` para verificar se o saldo é suficiente para um saque.
 
-```java
-public class ResultadoEscolar {
-   public static void main(String[] args) {
-      int nota = 10;
-      if (nota >= 7) {
-         System.out.println("Aprovado");
-      } else if (nota >= 5 && nota < 7) {
-         System.out.println("Recuperação");
-      } else {
-         System.out.println("Reprovado");
-      }
-      CondicaoTernaria();
-   }
+**Aprendizado:** Aqui, entendi como o `if-else` pode ser usado para tomar decisões simples com base em condições.
 
-   public static void CondicaoTernaria() {
-      int nota = 6;
-      String resultado = nota >= 7 ? "Aprovado" : nota >= 5 && nota < 7 ? "Recuperação" : "Reprovado";
-      System.out.println(resultado);
-   }
-}
-```
+---
 
-**O que aprendi:**
+## 2. **ResultadoEscolar.java**
 
-- O `if-else` pode ser usado para verificar múltiplas condições, como no exemplo em que a nota do aluno é avaliada para
-  determinar se ele está aprovado, em recuperação ou reprovado.
-- O **operador ternário** (`? :`) é uma forma compacta de escrever condições simples. Ele é útil para substituir
-  `if-else` em situações onde a lógica é direta, como no método `CondicaoTernaria`.
+Este exemplo mostra como usar `if-else` e operadores ternários para determinar o resultado de um aluno com base em sua
+nota.
 
-### 3. **Exemplo de `if-else`, Operador Ternário e `switch case` - Classe `SistemaMedida`**
+**Aprendizado:** Aprendi que o operador ternário é uma forma concisa de substituir estruturas `if-else` simples.
 
-```java
-public class SistemaMedida {
-   public static void main(String[] args) {
-      String sigla = "M";
-      if (sigla == "P") {
-         System.out.println("PEQUENO");
-      } else if (sigla == "M") {
-         System.out.println("MÉDIO");
-      } else if (sigla == "G") {
-         System.out.println("GRANDE");
-      } else {
-         System.out.println("INDEFINIDO");
-      }
-      CondicaoTernaria();
-      SwitchCase();
-   }
+## 3. **SistemaMedida.java**
 
-   public static void CondicaoTernaria() {
-      String sigla = "M";
-      String resultado = sigla == "P" ? "PEQUENO" : sigla == "M" ? "MÉDIO" : sigla == "G" ? "GRANDE" : "INDEFINIDO";
-      System.out.println(resultado);
-   }
+Este exemplo compara o uso de `if-else`, operador ternário e `switch case` para determinar o tamanho de uma roupa com
+base em uma sigla.
 
-   public static void SwitchCase() {
-      String sigla = "M";
-      switch (sigla) {
-         case "P": {
-            System.out.println("PEQUENO");
-            break;
-         }
-         case "M": {
-            System.out.println("MÉDIO");
-            break;
-         }
-         case "G": {
-            System.out.println("GRANDE");
-            break;
-         }
-         default:
-            System.out.println("INDEFINIDO");
-      }
-   }
-}
-```
+**Aprendizado:** Aqui, entendi que o `switch case` é ideal para situações com múltiplas condições, enquanto o operador
+ternário é útil para decisões simples.
 
-**O que aprendi:**
+## 4. **PlanoOperadora.java**
 
-- O `switch case` é uma estrutura condicional que permite comparar uma variável com vários valores possíveis. Ele é mais
-  legível e eficiente do que múltiplos `if-else` quando há muitas condições.
-- O uso do `break` é importante para evitar o "fall-through", onde o código continua executando os casos subsequentes.
-- O operador ternário também pode ser usado para simplificar a lógica de decisão, como no método `CondicaoTernaria`.
+Este exemplo compara o uso de `if-else` e `switch case` para escolher um plano de operadora com base em uma sigla.
 
-### 4. **Exemplo de `if-else` e `switch case` - Classe `PlanoOperadora`**
+**Aprendizado:** Aprendi que o `switch case` pode ser mais eficiente e legível em situações com múltiplas condições.
 
-```java
-public class PlanoOperadora {
-   public static void main(String[] args) {
-      String plano = "M";
-      if (plano == "B") {
-         System.out.println("100 minutos de ligação");
-      } else if (plano == "M") {
-         System.out.println("100 minutos de ligação");
-         System.out.println("Whats e Instagram grátis");
-      } else if (plano == "T") {
-         System.out.println("100 minutos de ligação");
-         System.out.println("Whats e Instagram grátis");
-         System.out.println("5GB Youtube");
-      }
-      SwitchCase();
-   }
+## 5. **ExemploFor.java**
 
-   public static void SwitchCase() {
-      String plano = "M";
-      switch (plano) {
-         case "T": {
-            System.out.println("5GB Youtube");
-         }
-         case "M": {
-            System.out.println("Whats e Instagram grátis");
-         }
-         case "B": {
-            System.out.println("100 minutos de ligação");
-            break;
-         }
-         default: {
-            System.out.println("Plano não reconhecido");
-         }
-      }
-   }
-}
-```
+Este exemplo mostra o uso do loop `for` para contar carneirinhos até que Joãozinho durma.
 
-**O que aprendi:**
+**Aprendizado:** Aprendi como o `for` pode ser usado para repetir tarefas um número específico de vezes.
 
-- O `switch case` é ideal para situações em que uma variável pode assumir vários valores e cada valor requer uma ação
-  específica.
-- O "fall-through" pode ser útil quando queremos que um caso inclua os benefícios dos casos inferiores, como no exemplo
-  dos planos de operadora.
-- O `default` é opcional e serve para lidar com valores inesperados.
+## 6. **ExemploForArray.java**
 
-### Conclusão
+Este exemplo demonstra o uso do `for` tradicional e do `for-each` para iterar sobre um array de nomes de alunos.
 
-Essa aula foi muito importante para entender como as estruturas condicionais funcionam em Java. Aprendi que cada
-estrutura tem seu uso específico:
+**Aprendizado:** Aprendi que o `for-each` é uma forma simplificada e mais legível de iterar sobre arrays ou coleções.
 
-- **`if-else`**: Ideal para condições simples ou quando há poucas opções.
-- **`switch case`**: Melhor para múltiplas condições baseadas no valor de uma única variável.
-- **Operador Ternário**: Útil para simplificar condições simples em uma única linha.
+## 7. **ExemploWhile.java**
 
-Estou animado para aplicar esses conceitos em projetos mais complexos e continuar explorando o poder da linguagem Java!
-🚀
+Este exemplo utiliza o loop `while` para simular Joãozinho gastando sua mesada em doces até que ela acabe.
+
+**Aprendizado:** Aprendi que o `while` é ideal para situações em que o número de iterações não é conhecido
+antecipadamente.
+
+## 8. **ExemploBreak.java**
+
+Este exemplo mostra o uso de `break` e `continue` para controlar o fluxo de execução dentro de loops.
+
+**Aprendizado:** Aprendi que o `break` interrompe completamente o loop, enquanto o `continue` pula para a próxima
+iteração.
+
+## Conclusão
+
+Essa aula foi fundamental para entender como as estruturas condicionais e de repetição funcionam em Java. Os exemplos
+práticos ajudaram a fixar os conceitos e a perceber como essas estruturas podem ser aplicadas em situações reais. Agora,
+sinto-me mais confiante para continuar explorando a linguagem e desenvolver projetos mais complexos! 🚀
+
+A estrutura do repositório foi essencial para organizar os códigos e facilitar o estudo. Recomendo sempre manter os
+arquivos bem organizados, como fiz aqui, para que o aprendizado seja mais eficiente e o código, mais acessível.
