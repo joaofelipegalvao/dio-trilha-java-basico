@@ -27,7 +27,7 @@ Cada diretório representa um módulo ou desafio do curso:
 
 ### 1. **About Me**
 
-🚀 Um pequeno projeto onde utilizei a classe Scanner para capturar entradas do usuário e exibir informações pessoais na tela.
+🚀 Um pequeno projeto onde utilizei a classe `Scanner` para capturar entradas do usuário e exibir informações pessoais na tela.
 
 ### 2. **Conta Banco**
 
@@ -64,15 +64,16 @@ Cada diretório representa um módulo ou desafio do curso:
 ## 🚀 Como Utilizar Este Repositório
 
 1. **Clone o repositório** para sua máquina:
+   ```bash
+   git clone https://github.com/seu-usuario/sintaxe-java-basico.git
+   cd sintaxe-java-basico
+   ```
+2. **Abra no seu editor de código favorito** (VS Code, IntelliJ IDEA, etc.).
 
-bash
-git clone https://github.com/joaofelipegalvao/dio-trilha-java-basico.git
-cd dio-trilha-java-basico
+3. **Explore os códigos** e edite à vontade! 📝
 
-3. **Abra no seu editor de código favorito** (VS Code, IntelliJ IDEA, etc.).
-
-4. **Explore os códigos** e edite à vontade! 📝
-
-## 🎯 conclusão
+## 🎯 Conclusão
 
 Esse curso foi essencial para consolidar meus conhecimentos em Java e entender melhor a estruturação de programas na linguagem. Foi uma jornada incrível de aprendizado, e este repositório é um reflexo disso.
+
+Sinta-se à vontade para explorar os códigos, sugerir melhorias ou entrar em contato para trocar conhecimentos! 🚀
