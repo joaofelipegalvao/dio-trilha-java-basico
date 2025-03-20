@@ -65,8 +65,8 @@ Cada diretório representa um módulo ou desafio do curso:
 
 1. **Clone o repositório** para sua máquina:
    ```bash
-   git clone https://github.com/seu-usuario/sintaxe-java-basico.git
-   cd sintaxe-java-basico
+   git clone https://github.com/joaofelipegalvao/dio-trilha-java-basico.git
+   cd dio-trilha-java-basico
    ```
 2. **Abra no seu editor de código favorito** (VS Code, IntelliJ IDEA, etc.).
 3. **Compile e execute** um dos projetos:
@@ -76,7 +76,7 @@ Cada diretório representa um módulo ou desafio do curso:
    ```
 4. **Explore os códigos** e edite à vontade! 📝
 
-## 🎯 Conclusão
+## 🎯 conclusão
 
 Esse curso foi essencial para consolidar meus conhecimentos em Java e entender melhor a estruturação de programas na linguagem. Foi uma jornada incrível de aprendizado, e este repositório é um reflexo disso.
 
