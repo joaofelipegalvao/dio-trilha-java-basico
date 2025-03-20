@@ -69,14 +69,10 @@ Cada diretório representa um módulo ou desafio do curso:
    cd dio-trilha-java-basico
    ```
 2. **Abra no seu editor de código favorito** (VS Code, IntelliJ IDEA, etc.).
-3. **Compile e execute** um dos projetos:
-   ```bash
-   javac src/ContaTerminal.java
-   java src.ContaTerminal
-   ```
-4. **Explore os códigos** e edite à vontade! 📝
 
-## 🎯 conclusão
+3. **Explore os códigos** e edite à vontade! 📝
+
+## 📢 Considerações Finais
 
 Esse curso foi essencial para consolidar meus conhecimentos em Java e entender melhor a estruturação de programas na linguagem. Foi uma jornada incrível de aprendizado, e este repositório é um reflexo disso.
 
