@@ -4,8 +4,6 @@ Durante o curso da DIO, realizei desafios de lógica de programação em Java pa
 e saída de dados, controle de fluxo e manipulação de variáveis. Abaixo, descrevo dois dos desafios práticos que
 implementei.
 
----
-
 ## 🏦 Desafio 1: Cálculo de Saldo Final
 
 ### 📌 Descrição
@@ -61,8 +59,6 @@ public class Main {
 | 0.00                 | 25.00  |
 | 100.00 -50.00 -25.00 |        |
 
----
-
 ## 📊 Desafio 2: Classificação de Clientes
 
 ### 📌 Descrição
@@ -114,8 +110,6 @@ public class Main {
 | -50.00  | Negativado  |
 | 0.00    | Baixo       |
 | 1000.00 | Confortável |
-
----
 
 ## 🚀 Aprendizados
 
