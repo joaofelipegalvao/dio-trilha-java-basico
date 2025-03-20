@@ -3,21 +3,21 @@
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![DIO](https://img.shields.io/badge/Digital%20Innovation%20One-000000?style=for-the-badge&logo=dio&logoColor=white)
 
-Este repositório contém todos os projetos e exercícios que desenvolvi durante o curso **Sintaxe Java Básico** da Digital Innovation One (DIO). Durante essa jornada, aprendi os fundamentos da linguagem Java, incluindo manipulação de variáveis, controle de fluxo, estruturação de classes e métodos, além do uso de exceções e entrada de dados pelo terminal. 📌
+Este repositório contém meus estudos e exercícios do curso **"Sintaxe Java Básico"** da Digital Innovation One (DIO). Aqui, documentei os principais conceitos aprendidos e implementei exemplos práticos para reforçar meu conhecimento. Durante essa jornada, aprendi os fundamentos da linguagem Java, incluindo manipulação de variáveis, controle de fluxo, estruturação de classes e métodos, além do uso de exceções e entrada de dados pelo terminal. 📌
 
 ## 📌 Índice
 
 1. [Estrutura do Repositório](#estrutura-do-repositório)
 2. [Projetos e Exercícios](#projetos-e-exercicios)
-   - [About Me](#1-about-me)
-   - [Conta Banco](#2-conta-banco)
-   - [Controle de Candidatos](#3-controle-candidatos)
-   - [Controle de Fluxo](#4-controle-fluxo)
-   - [Desafio Controle de Fluxo](#5-desafio-controle-fluxo)
-   - [Desafio Lógica de Programação](#6-desafio-logica-de-programacao)
-   - [Fundamentos e Métodos](#7-fundamentos-metodos)
-   - [Sistema Smart TV](#8-sistema-smart-tv)
-   - [Tipos e Variáveis](#9-tipos-variaveis)
+   - [About Me](#about-me)
+   - [Conta Banco](#conta-banco)
+   - [Controle de Candidatos](#controle-de-candidatos)
+   - [Controle de Fluxo](#controle-de-fluxo)
+   - [Desafio Controle de Fluxo](#desafio-controle-de-fluxo)
+   - [Desafio Lógica de Programação](#desafio-logica-de-programacao)
+   - [Fundamentos e Métodos](#fundamentos-e-metodos)
+   - [Sistema Smart TV](#sistema-smart-tv)
+   - [Tipos e Variáveis](#tipos-e-variaveis)
 3. [Como Utilizar](#como-utilizar-este-repositorio)
 4. [Conclusão](#conclusao)
 
@@ -69,7 +69,6 @@ Cada diretório representa um módulo ou desafio do curso:
    cd dio-trilha-java-basico
    ```
 2. **Abra no seu editor de código favorito** (VS Code, IntelliJ IDEA, etc.).
-
 3. **Explore os códigos** e edite à vontade! 📝
 
 ## 📢 Considerações Finais
