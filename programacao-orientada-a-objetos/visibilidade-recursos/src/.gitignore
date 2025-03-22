@@ -1,0 +1,13 @@
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+module-info.class
+module-info.java
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
