@@ -7,7 +7,7 @@
 .springBeans
 .sts4-cache
 module-info.class
-module-info.java
+.module-info.java
 bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
