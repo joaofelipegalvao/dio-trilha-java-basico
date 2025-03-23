@@ -13,7 +13,7 @@ Neste módulo do curso **Fundamentos da Programação Orientada a Objetos com Ja
 
 Os códigos desenvolvidos nesta aula estão disponíveis no diretório do projeto:
 
-🔗 [Acesse o código-fonte](https://github.com/joaofelipegalvao/dio-trilha-java-basico/tree/main/programacao-orientada-a-objetos/GettersAndSetters/src/escola)
+🔗 [Acesse o código-fonte](https://github.com/joaofelipegalvao/dio-trilha-java-basico/tree/main/programacao-orientada-a-objetos/GettersAndSetters/src/escola) <br>
 Neste diretório, estão implementadas as classes `Aluno` e `Escola`, onde apliquei os conceitos de encapsulamento com **getters** e **setters**.
 
 ## Reflexão
