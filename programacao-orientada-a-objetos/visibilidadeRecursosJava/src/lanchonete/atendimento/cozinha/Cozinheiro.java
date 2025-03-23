@@ -2,22 +2,21 @@ package lanchonete.atendimento.cozinha;
 
 public class Cozinheiro {
 
-  // pode ser default
+  // Métodos públicos: podem ser acessados por qualquer classe
   public void adicionarLancheBalcao() {
     System.out.println("ADICIONANDO LANCHE NATURAL HAMBURGUER NO BALCAO");
   }
 
-  // pode ser default
   public void adicionarSucoNoBalcao() {
     System.out.println("ADICIONANDO SUCO NO BALCAO");
   }
 
-  // pode ser default
   public void adicionarComboNoBalcao() {
     adicionarLancheBalcao();
     adicionarSucoNoBalcao();
   }
 
+  // Métodos privados: só podem ser acessados dentro da classe Cozinheiro
   private void prepararLanche() {
     System.out.println("PREPARANDO LANCHE TIPO HAMBURGUER");
   }
@@ -51,10 +50,7 @@ public class Cozinheiro {
     System.out.println("FRITANDO A CARNE E OVO PARA HAMBURGUER");
   }
 
-  // public void pedirParaTrocarGas(Atendente meuAmigo) {
-  //   meuAmigo.trocarGas();
-  // }
-
+  // Método privado: só pode ser acessado dentro da classe Cozinheiro
   private void pedirParaTrocarGas(Almoxarife meuAmigo) {
     meuAmigo.trocarGas();
   }
