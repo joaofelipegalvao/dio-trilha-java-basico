@@ -40,13 +40,9 @@ Neste diretório, estão implementadas as classes `Pessoa` e `SistemaCadastro`, 
 4. **Boas Práticas**:
    - Usar construtores e métodos getters/setters torna o código mais organizado e fácil de manter.
 
----
-
 ## Reflexão
 
 Aprendi que os construtores são fundamentais para a criação de objetos em Java. Eles não apenas simplificam a inicialização dos atributos, mas também ajudam a garantir que os objetos sejam criados em um estado válido. Além disso, o uso do `this` e a separação entre atributos privados e métodos públicos são práticas essenciais para escrever código limpo e seguro.
-
----
 
 ## Próximos Passos
 
@@ -55,25 +51,3 @@ Agora que entendi o básico de construtores, quero explorar:
 1. **Sobrecarga de Construtores**: Criar múltiplos construtores na mesma classe.
 2. **Construtores Padrão**: Entender como o Java cria um construtor padrão quando nenhum é definido.
 3. **Outros Conceitos de POO**: Aprofundar-me em herança, polimorfismo e encapsulamento.
-
----
-
-🔗 **Código-fonte**: [Acesse o código completo no GitHub](https://github.com/joaofelipegalvao/dio-trilha-java-basico/tree/main/programacao-orientada-a-objetos/ConstrutoresJava/src/construtores)
-
----
-
-📌 _Curso: Fundamentos da Programação Orientada a Objetos com Java - DIO_
-
----
-
-Espero que este README.md seja útil para revisar meus aprendizados e compartilhar conhecimentos com outras pessoas. Se tiver dúvidas ou sugestões, é só entrar em contato! 😊
-
----
-
-Feito com ❤️ por [Seu Nome].  
-📧 [Seu e-mail]  
-🌐 [Seu site ou perfil no GitHub]
-
----
-
-Esse `README.md` é pessoal e explicativo, escrito em primeira pessoa para transmitir uma abordagem mais amigável e didática. Você pode personalizá-lo com suas informações e detalhes adicionais conforme necessário! 😊
