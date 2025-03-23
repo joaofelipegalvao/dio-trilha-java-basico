@@ -1,6 +1,5 @@
 package lanchonete.atendimento.cozinha;
 
-
 public class Cozinheiro {
 
   // pode ser default

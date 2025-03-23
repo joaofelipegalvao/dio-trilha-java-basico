@@ -12,6 +12,7 @@ public class Cliente {
   }
 
   public void pagarConta() {
+    consultarSaldoAplicativo();
     System.out.println("PAGANDO A CONTA");
   }
 
