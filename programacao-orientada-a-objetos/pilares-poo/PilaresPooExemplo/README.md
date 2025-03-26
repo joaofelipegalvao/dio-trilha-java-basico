@@ -83,7 +83,7 @@ public class EquipamentoMultifuncional implements Impressora, Copiadora {
 
 Os exemplos práticos podem ser encontrados no seguinte repositório:
 
-🔗 **Código-fonte**: [Acesse aqui](https://github.com/seu-usuario/poo-java-dio)
+🔗 **Código-fonte**: [Acesse aqui](https://github.com/joaofelipegalvao/dio-trilha-java-basico/tree/main/programacao-orientada-a-objetos/pilares-poo/PilaresPooExemplo)
 
 ## 🎯 Aprendizados
 
@@ -96,7 +96,3 @@ Os exemplos práticos podem ser encontrados no seguinte repositório:
 ## 🔍 Reflexões
 
 A POO permite criar código mais organizado, reutilizável e fácil de manter. Compreender esses conceitos é essencial para quem deseja se tornar um programador Java eficiente.
-
----
-
-Feito com ❤️ por [Seu Nome] | [LinkedIn](https://linkedin.com/in/seu-perfil)
