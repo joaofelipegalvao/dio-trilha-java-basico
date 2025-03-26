@@ -1,0 +1,14 @@
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+PilaresPooExemplo.jar
+bin/
+docs/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+/.metadata/
