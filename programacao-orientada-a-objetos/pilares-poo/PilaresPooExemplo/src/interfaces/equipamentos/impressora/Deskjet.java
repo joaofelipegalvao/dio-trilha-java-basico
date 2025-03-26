@@ -1,6 +1,6 @@
 package interfaces.equipamentos.impressora;
 
-public class Scanner implements Impressora {
+public class Deskjet implements Impressora {
 
   @Override
   public void imprimir() {
