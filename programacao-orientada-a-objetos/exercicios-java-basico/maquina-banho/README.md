@@ -7,10 +7,10 @@ Este repositório contém a minha solução para o exercício proposto no curso 
 <!-- [📒 Sobre o Exercício](#📒-sobre-o-exercício) | [⚙️ Regras Implementadas](#️-regras-implementadas) | [🏗️ Estrutura do Código](#🏗️-estrutura-do-código) | [📚 Aprendizados](#📚-aprendizados) -->
 
 <p align="center" dir="auto">
-  <a href="#%F0%9F%93%92-sobre-o-exerc%C3%ADcio">📒 Sobre o Exercício<a/> |
-  <a href="#%E2%9A%99%EF%B8%8F-regras-implementadas">⚙️ Regras Implementadas<a/> |
-  <a href="#%F0%9F%8F%97%EF%B8%8F-estrutura-do-c%C3%B3digo">🏗️ Estrutura do Código</a> |
-  <a href="#%F0%9F%93%9A-aprendizados">📚 Aprendizados</a>
+  <a href="#user-content--sobre-o-exercício">📒 Sobre o Exercício<a/> |
+  <a href="#user-content-️-regras-implementadas">⚙️ Regras Implementadas<a/> |
+  <a href="#user-content--estrutura-do-código">🏗️ Estrutura do Código</a> |
+  <a href="#user-content--aprendizados">📚 Aprendizados</a>
 </p>
 
 ![Demostração do Exercício](https://i.ibb.co/HLPZyYvX/screenshot-31032025-030249.png)
@@ -27,7 +27,7 @@ O desafio consistiu em criar um sistema que simula o funcionamento de uma máqui
 - 🔄 Colocar e retirar um pet da máquina;
 - 🧼 Limpar a máquina.
 
-### ⚙️ Regras Implementadas
+## ⚙️ Regras Implementadas
 
 - Apenas um pet pode ser banhado por vez;
 - Cada banho consome **10 litros de água** e **2 litros de shampoo**;
