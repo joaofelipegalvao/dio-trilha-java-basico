@@ -13,7 +13,7 @@ Este repositório contém a minha solução para o exercício proposto no curso 
   <a href="#user-content--aprendizados">📚 Aprendizados</a>
 </p>
 
-[![screenshot-31032025-030249.png](https://i.postimg.cc/JzS96rpH/screenshot-31032025-030249.png)](https://postimg.cc/RWQsqB5v)
+[![screenshot-31032025-093327.png](https://i.postimg.cc/tC9nrcD9/screenshot-31032025-093327.png)](https://postimg.cc/w3bBM0Sr)
 
 <p align="center" dir="auto"><em>Veja a execução do exercício em ação!</em> 🚀 <p>
 
