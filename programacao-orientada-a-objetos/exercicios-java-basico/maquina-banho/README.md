@@ -8,12 +8,14 @@ Este repositório contém a minha solução para o exercício proposto no curso 
 
 <p align="center" dir="auto">
   <a href="#user-content--sobre-o-exercício">📒 Sobre o Exercício<a/> |
-  <a href="#user-content-️-regras-implementadas">⚙️ Regras Implementadas<a/> |
+  <a href="#user-content-️-regras-implementadas">⚙️ Regras Implementadas</a> |
   <a href="#user-content-️-estrutura-do-código">🏗️ Estrutura do Código</a> |
   <a href="#user-content--aprendizados">📚 Aprendizados</a>
 </p>
 
 [![screenshot-31032025-030249.png](https://i.postimg.cc/JzS96rpH/screenshot-31032025-030249.png)](https://postimg.cc/RWQsqB5v)
+
+<p align="center" dir="auto"><em>Veja a execução do exercício em ação!</em> 🚀 <p>
 
 ## 📒 Sobre o Exercício
 
