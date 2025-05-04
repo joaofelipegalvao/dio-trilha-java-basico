@@ -5,7 +5,7 @@ Este repositório contém a minha solução para o desafio proposto na trilha de
 <p align="center" dir="auto">
   <a href="#-sobre-o-desafio">📒 Sobre o Exercício<a/> |
   <a href="#️-funcionalidades-implementadas">⚙️ Regras Implementadas</a> |
-  <a href="#-estrutura-do-código">🏗️ Estrutura do Código</a> |
+  <a href="#️-estrutura-do-código">🏗️ Estrutura do Código</a> |
   <a href="#-aprendizados">📚 Aprendizados</a>
 </p>
 
