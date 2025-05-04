@@ -2,7 +2,12 @@
 
 Este repositório contém a minha solução para o desafio proposto na trilha de Java da DIO, focado na modelagem de um componente iPhone utilizando conceitos de POO como interfaces e encapsulamento.
 
-📒 Sobre o Desafio | ⚙️ Funcionalidades Implementadas | 🏗️ Estrutura do Código | 📚 Aprendizados
+<p align="center" dir="auto">
+  <a href="#user-content--sobre-o-exercício">📒 Sobre o Exercício<a/> |
+  <a href="#user-content-️-regras-implementadas">⚙️ Regras Implementadas</a> |
+  <a href="#user-content-️-estrutura-do-código">🏗️ Estrutura do Código</a> |
+  <a href="#user-content--aprendizados">📚 Aprendizados</a>
+</p>
 
 Modelagem e implementação de um iPhone multifuncional com Java e UML! 🚀
 
@@ -12,21 +17,22 @@ O objetivo deste desafio foi representar as funcionalidades de um iPhone utiliza
 
 A proposta incluía:
 
-* Criar interfaces para representar as funcionalidades de:
+- Criar interfaces para representar as funcionalidades de:
 
-   * Reprodutor Musical
-   * Aparelho Telefônico
-   * Navegador de Internet
-* Implementar uma classe `iPhone` que integra essas funcionalidades.
-* Representar a modelagem utilizando diagrama UML.
+  - Reprodutor Musical
+  - Aparelho Telefônico
+  - Navegador de Internet
+
+- Implementar uma classe `iPhone` que integra essas funcionalidades.
+- Representar a modelagem utilizando diagrama UML.
 
 ## ⚙️ Funcionalidades Implementadas
 
-* Interface `ReprodutorMusical`: tocar, pausar e selecionar músicas.
-* Interface `AparelhoTelefonico`: ligar, atender e iniciar correio de voz.
-* Interface `NavegadorInternet`: exibir páginas, adicionar abas e atualizar.
-* Classe `iPhone` que implementa todas as funcionalidades das interfaces.
-* Testes básicos demonstrando o funcionamento da classe.
+- Interface `ReprodutorMusical`: tocar, pausar e selecionar músicas.
+- Interface `AparelhoTelefonico`: ligar, atender e iniciar correio de voz.
+- Interface `NavegadorInternet`: exibir páginas, adicionar abas e atualizar.
+- Classe `iPhone` que implementa todas as funcionalidades das interfaces.
+- Testes básicos demonstrando o funcionamento da classe.
 
 ## 🏗️ Estrutura do Código
 
@@ -96,10 +102,11 @@ classDiagram
 
 Com esse projeto, eu aprofundei os seguintes conceitos de programação orientada a objetos:
 
-✔️ Programação orientada a interfaces;
-✔️ Encapsulamento com atributos privados e uso de construtor;
-✔️ Organização de código em pacotes e separação de responsabilidades;
-✔️ Prática com modelagem UML utilizando o Mermaid para visualização;
+✔️ Programação orientada a interfaces; <br>
+✔️ Encapsulamento com atributos privados e uso de construtor; <br>
+✔️ Organização de código em pacotes e separação de responsabilidades; <br>
+✔️ Prática com modelagem UML utilizando o Mermaid para visualização; <br>
 ✔️ Aplicação prática de métodos com retorno e parâmetros em Java.
 
 Fiquei muito satisfeito com o resultado, pois consegui aplicar de forma clara os princípios da POO e estruturar um projeto funcional, organizado e fácil de expandir no futuro.
+
