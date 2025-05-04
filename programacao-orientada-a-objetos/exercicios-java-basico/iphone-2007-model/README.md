@@ -3,10 +3,10 @@
 Este repositório contém a minha solução para o desafio proposto na trilha de Java da DIO, focado na modelagem de um componente iPhone utilizando conceitos de POO como interfaces e encapsulamento.
 
 <p align="center" dir="auto">
-  <a href="#user-content--sobre-o-exercício">📒 Sobre o Exercício<a/> |
-  <a href="#user-content-️-regras-implementadas">⚙️ Regras Implementadas</a> |
-  <a href="#user-content-️-estrutura-do-código">🏗️ Estrutura do Código</a> |
-  <a href="#user-content--aprendizados">📚 Aprendizados</a>
+  <a href="#-sobre-o-desafio">📒 Sobre o Exercício<a/> |
+  <a href="#️-funcionalidades-implementadas">⚙️ Regras Implementadas</a> |
+  <a href="#-estrutura-do-código">🏗️ Estrutura do Código</a> |
+  <a href="#-aprendizados">📚 Aprendizados</a>
 </p>
 
 Modelagem e implementação de um iPhone multifuncional com Java e UML! 🚀
